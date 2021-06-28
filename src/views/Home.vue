@@ -1,54 +1,5 @@
 <template>
   <div id="home">
-    <!-- <v-file-input
-      truncate-length="15"
-      v-model="file"
-      @change="addFile"
-    ></v-file-input>
-
-    <div class="border">
-      <vue-web-cam
-        ref="webcam"
-        :device-id="deviceId"
-        width="100%"
-        @started="onStarted"
-        @stopped="onStopped"
-        @error="onError"
-        @cameras="onCameras"
-        @camera-change="onCameraChange"
-      />
-    </div>
-
-    <div class="col-md-12">
-      <select v-model="camera">
-        <option>-- Select Device --</option>
-        <option
-          v-for="device in devices"
-          :key="device.deviceId"
-          :value="device.deviceId"
-        >
-          {{ device.label }}
-        </option>
-      </select>
-    </div>
-    <div class="col-md-12">
-      <button type="button" class="btn btn-primary" @click.prevent="onCapture()">
-        Capture Photo
-      </button>
-      <button type="button" class="btn btn-danger" @click.prevent="onStop()">
-        Stop Camera
-      </button>
-      <button type="button" class="btn btn-success" @click.prevent="onStart()">
-        Start Camera
-      </button>
-    </div>
-
-    <div class="col-md-6">
-      <h2>Captured Image</h2>
-      <figure class="figure">
-        <img style="width: 100%" height="500px" :src="img" />
-      </figure>
-    </div> -->
     <v-container grid-list-xs>
       <v-card elevation="0" class="mt-3">
         <v-container fluid>
